@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.insta_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:8:5-67
+17-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:8:22-64
+18
+19    <application
+19-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:10:5-32:19
+20        android:name="io.flutter.app.FlutterApplication"
+20-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:11:9-57
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.0.0] C:\Users\NP\.gradle\caches\transforms-2\files-2.1\0a271e99b6771ad4a84318244d532fb7\core-1.0.0\AndroidManifest.xml:22:18-86
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:13:9-43
+23        android:label="تلگرام" >
+23-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:12:9-31
+24        <activity
+24-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:14:9-26:20
+25            android:name="com.example.insta_app.MainActivity"
+25-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:15:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:19:13-163
+27            android:hardwareAccelerated="true"
+27-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:20:13-47
+28            android:launchMode="singleTop"
+28-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:16:13-43
+29            android:theme="@style/LaunchTheme"
+29-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:18:13-47
+30            android:usesCleartextTraffic="true"
+30-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:17:13-48
+31            android:windowSoftInputMode="adjustResize" >
+31-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:21:13-55
+32            <intent-filter>
+32-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:22:13-25:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:23:17-68
+33-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:24:17-76
+35-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:24:27-74
+36            </intent-filter>
+37        </activity>
+38        <!--
+39             Don't delete the meta-data below.
+40             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+41        -->
+42        <meta-data
+42-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:29:9-31:33
+43            android:name="flutterEmbedding"
+43-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:30:13-44
+44            android:value="2" />
+44-->C:\Users\NP\Desktop\insta_app\android\app\src\main\AndroidManifest.xml:31:13-30
+45    </application>
+46
+47</manifest>

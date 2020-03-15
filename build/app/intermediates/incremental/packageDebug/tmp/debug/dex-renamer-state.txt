@@ -1,0 +1,4 @@
+#Sun Mar 15 02:43:57 IRST 2020
+base.0=C\:\\Users\\NP\\Desktop\\insta_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
