@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "تلگرام",
+      title: "تلگرام طلایی",
       debugShowCheckedModeBanner: false,
       home: Directionality(
         textDirection: TextDirection.rtl,
